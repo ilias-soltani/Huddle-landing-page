@@ -6,6 +6,9 @@
 /* End variables  */
 
 /* Start global rules */
+html {
+  background-color: var(--main-color);
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -59,6 +62,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
+  background-color: var(--main-color);
 }
 
 @media (max-width: 767px) {
@@ -78,6 +82,7 @@
   margin-left: -16px;
   color: white;
   flex-wrap: wrap;
+  height: 100%;
 }
 
 @media (max-width: 767px) {
